@@ -1,5 +1,6 @@
 box: wercker/default
 build:
-  steps:
-    - arjen/hugo-build:
-        version: 0.12
+steps:
+  - arjen/hugo-build@1.2.0:
+    version: 0.13
+    theme: hugo-uno-mod
