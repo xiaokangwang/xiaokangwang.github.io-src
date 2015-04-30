@@ -1,5 +1,3 @@
-wercker.yml
-
 build:
   steps:
     - arjen/hugo-build:
