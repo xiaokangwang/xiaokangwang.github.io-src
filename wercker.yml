@@ -1,0 +1,6 @@
+wercker.yml
+
+build:
+  steps:
+    - arjen/hugo-build:
+        version: 0.12
