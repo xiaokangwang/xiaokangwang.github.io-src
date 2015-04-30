@@ -1,0 +1,10 @@
+baseurl = "https://kkdev.org/"
+languageCode = "en-us"
+title = "KKDEV"
+theme = "hugo-uno-mod"
+
+[params]
+
+theme = "theme-base-0d"
+tagline = "Be chosen to change the world.."
+description ='Be chosen to change the world.'
