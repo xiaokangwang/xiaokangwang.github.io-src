@@ -6,8 +6,8 @@ build:
 
 deploy:
   steps:
-    - polidog/gh-pages@0.2.1:
+    - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: kkdev.org
         basedir: public
-        repo: xiaokangwang.github.io
+        repo: xiaokangwang/xiaokangwang.github.io
