@@ -6,7 +6,7 @@ build:
 
 deploy:
   steps:
-    - gh-page-do-not-use@0.2.2:
+    - gh-pages-do-not-use@0.2.2:
         token: $GIT_TOKEN
         domain: kkdev.org
         basedir: public
