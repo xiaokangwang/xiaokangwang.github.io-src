@@ -15,7 +15,7 @@ date =  "2014-07-16"
 
 窗外,白雪皑皑.
 
-![img] :(https://static.kkdev.org/blog/grass_and_cactus.png)
+![img](https://static.kkdev.org/blog/grass_and_cactus.png)
 
 ##隐藏的故事另一条故事线##
 
