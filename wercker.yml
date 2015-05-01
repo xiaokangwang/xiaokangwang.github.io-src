@@ -6,8 +6,7 @@ build:
 
 deploy:
   steps:
-    - lukevivier/gh-pages:
+    - gh-pages:
         token: $GIT_TOKEN
-        domain: kkdev.org
-        basedir: public
-        repo: xiaokangwang/xiaokangwang.github.io
+        domain: luke.vivier.ca
+        basedir: build
