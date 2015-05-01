@@ -3,10 +3,10 @@ build:
   steps:
     - arjen/hugo-build:
         version: 0.13
-
+        
 deploy:
   steps:
-    - step-gh-pages:
+    - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: kkdev.org
         basedir: public
