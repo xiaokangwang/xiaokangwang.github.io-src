@@ -8,5 +8,6 @@ deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: xiaokangwang.github.io
+        domain: kkdev.org
         basedir: public
+        repo: xiaokangwang.github.io
