@@ -1,10 +1,10 @@
-﻿+++
-Categories = [""]
++++
+Categories = []
 Description = ""
 Tags = []
-date = "2015-06-19T19:20:17+08:00"
+date = "2015-06-19T20:35:32+08:00"
 menu = "main"
-title = "我就是我？"
+title = "我就是我?"
 
 +++
 
@@ -33,7 +33,13 @@ P.P.S:如何确定是否是真的用户控制密钥呢？如果仅仅向邮箱�
 最后，给出我的GPG密钥：
 
 pub   4096R/709ABD21 2014-03-09 [expires: 2019-03-23]
-      Key fingerprint = 0602 B44C 2B5A 8176 62B6  23EA 7791 BDB0 709A BD21
+
+Key fingerprint = 0602 B44C 2B5A 8176 62B6  23EA 7791 BDB0 709A BD21
+
 uid       [ultimate] XiaokangWang <xiaokangwang@outlook.com>
+
 sub   4096R/72D12ABB 2015-01-24 [expires: 2017-01-25]
+
 sub   4096R/929349B7 2015-06-02 [expires: 2019-06-02]
+
+
