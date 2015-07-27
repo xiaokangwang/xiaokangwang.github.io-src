@@ -18,7 +18,7 @@ title = "萌娘百科编辑器辅助工具使用说明"
 
 2. [点击这里](https://github.com/xiaokangwang/KK5iMengbaiwikiutl/raw/master/Moegirl%20edit%20utl.user.js) (请确认！)
 
-3. 确认 ![img](http://lnk.kkdev.org/1IA1Y3c)
+3. 确认 ![img](https://lnk.kkdev.org/1IA1Y3c)
 
 <h3>Firefox浏览器</h3>
 
