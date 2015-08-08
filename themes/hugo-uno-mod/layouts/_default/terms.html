@@ -1,0 +1,51 @@
+{{ partial "head.html" . }}
+<body>
+    {{ partial "sidebar.html" . }}
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <section id="main">
+              <div>
+                <h1 id="title">{{ .Title }}</h1>
+                <style type="text/css">
+                        #double ul{
+                          width:760px;
+                          margin-bottom:20px;
+                          overflow:hidden;
+                        }
+                        #double li{
+                          line-height:1.5em;
+                          float:left;
+                          display:inline;
+                          width:50%;
+                        }
+                </style>
+                <ul id="double">
+                {{ $data := .Data }}
+                {{ range $key, $value := .Data.Terms }}
+                    <li>
+                        <a href="{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}
+                    </li>
+                {{ end }}
+               </ul>
+              </div>
+            </section>
+            </div>
+        </div>
+    <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analyzer.kkdev.org/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 7]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analyzer.kkdev.org/piwik.php?idsite=7" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+    {{ partial "script.html" .}}
+</html>

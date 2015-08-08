@@ -21,6 +21,8 @@ baseurl = "http://fredrikloch.me/"
 canonifyurls = true
 title = "Fredrik Loch"
 author = "Fredrik Loch"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
 
 [indexes]
    category = "categories"
@@ -39,6 +41,12 @@ author = "Fredrik Loch"
   cover = "/images/background-cover.jpg"
   logo = "/img/logo-1.jpg"
 ```
+
+If you prefer to use discourse replace the "muut" line with the following(remember the trailing slash)
+
+'''
+  discourse = "http://discourse.yoursite.com/"
+'''
 Charts
 -
 To create charts I use [Chart.js](https://github.com/nnnick/Chart.js) which can be configured through basic js files. To add a chart to a post use the following short-code:
@@ -105,13 +113,6 @@ Moot integration allows users to comment on your posts.
 
 **Font-awesome icons**
 For more information on available icons: [font-awesome](http://fortawesome.github.io/Font-Awesome/)
-The files supplied with this theme have a minor alteration to work around an issue with adblocks and social icons.
-The changes means that the following classes is used:
-
-* fa-tt -- twitter
-* fa-fb -- facebook
-* fa-ll -- linkedin
-* fa-fl -- flickr
 
 **No-JS fallback**
 While JS is widely used, some themes and websites don't provide fallback for when no JS is available (I'm looking at you [Squarespace](http://blog.squarespace.com/)). If for some weird reason a visitor has JS disabled your blog will still be usable.

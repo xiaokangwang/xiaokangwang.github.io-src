@@ -13,14 +13,17 @@
                     </div>
                     </br>
                     <h4>
-                        <a href="/post/">Archive</a>
+                        <a href="{{ .Site.BaseURL }}/post/">Archive</a>
                     </h4>
                 </section>
             </div>
         </div>
         {{ partial "footer.html" .}}
         {{ partial "script.html" .}}
-        <script type="text/javascript">
+
+
+    <!-- Piwik -->
+<script type="text/javascript">
   var _paq = _paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
@@ -33,5 +36,6 @@
   })();
 </script>
 <noscript><p><img src="//analyzer.kkdev.org/piwik.php?idsite=7" style="border:0;" alt="" /></p></noscript>
-    </body>
+<!-- End Piwik Code -->
+</body>
 </html>
