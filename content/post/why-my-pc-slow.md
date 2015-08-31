@@ -28,3 +28,5 @@ Major page fault 在程序访问一块目前不在物理内存上的逻辑内存
 
 在进行非3D显示时，显示卡性能对电脑的影响并不显著。
 
+Edit: 在电脑散热出现问题时，CPU和自动降频，这时电脑速度会有显著降低。Thanks for feedback from XiaoLan
+
