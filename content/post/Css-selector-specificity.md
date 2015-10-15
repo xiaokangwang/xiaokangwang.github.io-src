@@ -12,7 +12,11 @@ draft = true
 
 在这篇文章中，我将通过耳熟能详的故事，向大家讲解CSS和CSS选择器的优先级，并通过简单易懂的哲学道理，帮助大家记住这些规则。
 
-##普世人权宣言=浏览器内建样式##
+##人权=浏览器内建样式##
+
+想必大家都对人权有或多或少的了解，可是大家都知道人权的具体内容是什么吗？
+
+请访问[什么是人权](http://www.ohchr.org/ch/Issues/Pages/WhatareHumanRights.aspx) [世界人权宣言（中文）](http://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=chn)了解人权具体内容。(链接指向联合国官方网站，请放心访问)
 
 
 
