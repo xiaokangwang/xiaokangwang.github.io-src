@@ -40,7 +40,7 @@ To classify network by cgroup, you will need the latest release of [iptables](ht
 To create a cgroup run:
 ```
 # cgcreate -a $(whoami) -g net_cls:$cgroupname
-````
+```
 
 Where $cgroupname is your intended name for your cgroup that will use that proxy separately.
 
