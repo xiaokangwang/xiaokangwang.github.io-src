@@ -38,39 +38,39 @@ This time cgroup come to resort for me.
 To classify network by cgroup, you will need the latest release of [iptables](http://www.netfilter.org/projects/iptables/downloads.html)
 
 To create a cgroup run:
-`
+```
 # cgcreate -a $(whoami) -g net_cls:$cgroupname
-`
+````
 
 Where $cgroupname is your intended name for your cgroup that will use that proxy separately.
 
 The ‘net_cls’ before colon sign means we wants to classify its traffic.
 
 And run a shell inside it:
-`
+```
 # cgexec  -g net_cls:$cgroupname bash
-`
+```
  And now, the traffic from the the cgroup we just created can be marked(is not mark in iptables!) a class. But we haven't defined what mark we should append to it. So we run:
 
-`
+```
 # cd /sys/fs/cgroup/net_cls/$cgroupname;
 # echo 0x00110011 > net_cls.classid;
-`
+```
 And now the traffic is marked.
 
 To forward traffic to a local transparent proxy run:
-`
+```
 # iptables -t nat -N REDSOCKS #(create a new chain)
 # iptables -t nat -A REDSOCKS -d 127.0.0.0/8 -j RETURN #(local traffic will not go through proxy)
 # iptables -t nat -A REDSOCKS -p tcp -j REDIRECT --to-ports 11111 #(forward anything else to local transparent proxy)
 # iptables -t nat -A OUTPUT -p tcp -m cgroup --cgroup 0x00110011 -j REDSOCKS #(if a traffic come from cgroup and marked with 0x00110011 it will be put into the chain was just created)
-`
+```
 And finally, run [redsocks](https://github.com/darkk/redsocks) to convert transparent proxy to socks5
-`
+```
 ./redsocks -c conf.conf
-`
+```
 With configure:
-`
+```
 base {
 	log_debug =off;
 	log_info = on;
@@ -87,7 +87,7 @@ redsocks {
 	type = socks5;
 }
 
-`
+```
 
 There is also [another method](http://www.evolware.org/?p=293) to do this.
 
