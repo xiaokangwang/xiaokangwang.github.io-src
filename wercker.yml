@@ -7,7 +7,7 @@ build:
 
 deploy:
   steps:
-    - shelikhoo/gh-pages-do-not-use@0.2.3:
+    - shelikhoo/gh-pages-do-not-use:
         token: $GIT_TOKEN
         domain: kkdev.org
         basedir: public
