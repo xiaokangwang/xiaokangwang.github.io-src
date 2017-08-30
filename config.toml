@@ -1,6 +1,6 @@
 baseurl = "https://kkdev.org/"
 languageCode = "en-us"
-title = "KKDEV"
+title = "KKDEV - Shelikhoo 's Personal Blog"
 theme = "hugo-uno-mod"
 
 [params]
