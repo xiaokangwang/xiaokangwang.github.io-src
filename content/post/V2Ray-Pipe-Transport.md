@@ -24,3 +24,5 @@ Because of the absent of support for unix domain socket in windows environment, 
 Pipe transport can be used as an easy method for configure an transport for experimenting with new technology with V2Ray without risking breaking anything or be forced to match an merging window.
 
 Pipe transport’s behavior is consistent with proxy command or standard domain socket practice. This will help this new transport to use as many existing tool in unix style as possible. (V2Ray pipe should able to work with ncat out of box.)
+
+This RFC have been preliminarily approved by V2Ray’s maintainer.
