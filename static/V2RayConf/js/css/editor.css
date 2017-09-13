@@ -21,6 +21,7 @@
         }
         
         .QRScanner {
+			background: white;
             width: auto;
             height: 100vh;
         }
