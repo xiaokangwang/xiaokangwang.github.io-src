@@ -16,12 +16,12 @@
         }
         
         #qrscan {
+			background: white;
             height: 100vh;
             width: 100vw;
         }
         
         .QRScanner {
-			background: white;
             width: auto;
             height: 100vh;
         }
