@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Default Client Config",
+        "Author": "V2Ray Dev",
+        "Download": "https://cdn.rawgit.com/v2ray/v2ray-core/9c43471891baff6af9b0a63112e42e4a985f867c/tools/release/config/vpoint_socks_vmess.json",
+        "Intro": "Demo Intro",
+        "Note": "Not Very Important"
+    },
+    {
+        "Name": "Default Server Config",
+        "Author": "V2Ray Dev",
+        "Download": "https://cdn.rawgit.com/v2ray/v2ray-core/9c43471891baff6af9b0a63112e42e4a985f867c/tools/release/config/vpoint_vmess_freedom.json",
+        "Intro": "Demo Intro",
+        "Note": "Not Very Important"
+    }
+]
