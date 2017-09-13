@@ -287,8 +287,10 @@ import fscreen from 'js/fscreen.js';
         }
 
         function listRefresh() {
-            HistorySelector.items = ConvertMapToList(objToStrMap(JSON.parse(pstc)));
-            HistorySelector.Current = currentEditing;
+          if (pstc != undefined) {
+              HistorySelector.items = ConvertMapToList(objToStrMap(JSON.parse(pstc)));
+              HistorySelector.Current = currentEditing;
+          }
         }
 
         listRefresh();
