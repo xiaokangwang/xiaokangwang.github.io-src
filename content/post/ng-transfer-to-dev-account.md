@@ -3,7 +3,7 @@ Description = ""
 Tags = ["V2Ray", "Android"]
 Categories = ["V2Ray", "Android"]
 menu = "main"
-title = "关于V2RayNG在Play商店上的开发者帐号变更为其开发者的声明"
+title = "关于V2RayNG在Play商店上的开发者帐号变更为其UI部分开发者的声明"
 date = 2017-11-08T15:57:43+08:00
 
 +++
