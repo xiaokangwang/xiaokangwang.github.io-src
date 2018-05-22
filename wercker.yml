@@ -1,8 +1,8 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build@1.19.0:
-       version: "HEAD"
+    - arjen/hugo-build@2.0.0:
+       version: 0.40.3
 
 
 deploy:
