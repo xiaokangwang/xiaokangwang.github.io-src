@@ -4,7 +4,7 @@ Tags = ["Software", "Hardware"]
 Categories = ["Vison", "#"]
 menu = "main"
 title = "#Why we must change the way we express our code"
-date = 2018-9-5T17:57:46+08:00
+date = 2018-09-05T17:57:46+08:00
 
 +++
 The CPUs are similar to each other, so similar that a compiler like LLVM can support multiply CPU architecture by translating a internal representation of action directly to native instructions without understanding what the program is actually doing. And they share a similar issue: making compromise for compatibility and a deeper cause: binary code distribution & representation.
